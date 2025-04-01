@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Evergreen Energy Dashboard</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Weather Forecast</h2>
+            <p>Monday: 3° → 16°</p>
+            <p>Tuesday: 5° → 18°</p>
+        </div>
+        <div class="card temperature">
+            <div>
+                <h3>Outside Temperature</h3>
+                <p>16°C</p>
+            </div>
+            <div>
+                <h3>Inside Temperature</h3>
+                <p>19°C</p>
+            </div>
+        </div>
+        <div class="card control-panel">
+            <h2>Light Control</h2>
+            <button onclick="toggleLight('Living Room')">Living Room</button>
+            <button onclick="toggleLight('Kitchen')">Kitchen</button>
+        </div>
+        <div class="card">
+            <canvas id="temperatureChart"></canvas>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
