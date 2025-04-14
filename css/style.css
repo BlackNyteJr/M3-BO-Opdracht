@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3ebe1;
+    background-color: #f4f4dd;
     color: #5a4227;
     text-align: center;
 }
@@ -27,4 +27,9 @@ body {
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+img {
+    width: 50%;
+    height: 10%;
 }
